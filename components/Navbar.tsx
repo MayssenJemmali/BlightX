@@ -37,9 +37,9 @@ const NAV_LINKS = {
 };
 
 const MORE_PRODUCTS: Record<Language, string> = {
-  fr: 'Autres Produits',
-  en: 'More Products',
-  ar: 'منتجات أخرى',
+  fr: 'Découvrir Mildexia',
+  en: 'Discover Mildexia',
+  ar: 'Mildexia اكتشف',
 };
 
 const Navbar: FC<NavbarProps> = ({ language, setLanguage, theme, toggleTheme }) => {
