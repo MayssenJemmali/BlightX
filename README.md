@@ -6,7 +6,7 @@
   
   **Protects Your Crops. Respects the Environment.**
   
-  [Live Application](https://blightx.vercel.app)
+  [Live Application](https://blight-x.vercel.app)
 </div>
 
 ---
