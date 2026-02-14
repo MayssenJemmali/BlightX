@@ -1,4 +1,5 @@
 import { type FC, useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from './components/Navbar';
 import FloatingElements from './components/FloatingElements';
 import Hero from './sections/Hero';
@@ -74,6 +75,7 @@ const App: FC = () => {
 
       <ScrollToTop />
       <Footer content={currentContent.footer} />
+      <Analytics />
     </div>
   );
 };
