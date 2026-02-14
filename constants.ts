@@ -3,56 +3,54 @@ import { Content, Language } from './types';
 export const CONTENT: Record<Language, Content> = {
   fr: {
     hero: {
-      title: "Bouclier Préventif Contre le Mildiou",
-      subtitle: "Produit phytosanitaire à usage préventif. Formule à base d’extraits végétaux pour renforcer les défenses des cultures.",
+      title: "Bouclier Préventif Contre le Feu Bactérien",
+      subtitle: "Produit phytosanitaire à usage préventif conçu pour protéger les vergers contre le feu bactérien et soutenir la résistance naturelle des arbres fruitiers.",
       buttons: {
         contact: "Nous contacter",
-        learnMore: "Découvrir Mildexia"
+        learnMore: "Découvrir BlightX"
       }
     },
     about: {
-      title: "Qu'est-ce que Mildexia ?",
-      description: "Mildexia est un produit phytosanitaire à usage préventif.",
-      description2: "Il contribue à limiter l’apparition des maladies fongiques telles que le mildiou et l’oïdium, tout en soutenant les mécanismes naturels de défense des plantes."
+      title: "Qu'est-ce que BlightX ?",
+      description: "BlightX est un produit phytosanitaire à usage préventif destiné aux vergers.",
+      description2: "Il contribue à limiter le développement du feu bactérien tout en renforçant la structure cellulaire et les mécanismes de défense des arbres fruitiers."
     },
     usage: {
       title: "Mode d'Utilisation",
       cards: {
-        dosage: { title: "DOSE", text: "5 kg pour 200 L d’eau" },
-        prep: { title: "PRÉPARATION", text: "Dissoudre la poudre dans l’eau avec une agitation suffisante." },
-        app: { title: "APPLICATION", text: "Pulvériser uniformément sur les feuilles (dessus et dessous)." }
+        dosage: { title: "DOSE", text: "5 kg pour 120 à 150 L d’eau" },
+        prep: { title: "PRÉPARATION", text: "Préparer un prémélange (méthode slurry) en incorporant progressivement la poudre dans l’eau jusqu’à obtention d’une pâte homogène, puis verser dans la cuve." },
+        app: { title: "APPLICATION", text: "Pulvérisation intégrale de la canopée jusqu’à couverture uniforme. Dose indicative : 2 à 2,5 L de bouillie par arbre adulte." }
       }
     },
     crops: {
       title: "Cultures Cibles",
-      items: ["Tomate", "Pomme de terre", "Vigne"]
+      items: ["Poiriers", "Pommiers", "Cognassiers"]
     },
     formulation: {
       title: "Composition Fonctionnelle",
-      disclaimer: "Formule développée à partir de matières premières d’origine végétale et minérale.",
+      disclaimer: "Formule à base de composants d’origine végétale et minérale.",
       ingredients: [
-        "Prêle sèche",
-        "Extrait ail",
-        "Neem",
-        "Huile romarin",
-        "Bicarbonate",
-        "Argile kaolin",
-        "Extrait algues"
+        "Argile Blanche",
+        "Silicate de Potasse",
+        "Essence de Pin",
+        "Tea Tree Oil"
       ]
     },
     sustainability: {
       title: "Engagement Agricole Durable",
       points: [
-        "Conçu pour accompagner une agriculture responsable.",
+        "Conçu pour accompagner une gestion responsable des vergers.",
         "Sans résidus chimiques persistants.",
-        "Compatible avec des pratiques culturales durables."
+        "Compatible avec des pratiques culturales durables et respectueuses de l’écosystème."
       ]
     },
     product: {
       title: "Spécifications Techniques",
       specs: [
-        "Poudre soluble",
+        "Poudre à diluer",
         "Application préventive",
+        "Formation d’un écran protecteur après séchage",
         "Conservation longue durée",
         "Fabrication en Tunisie"
       ],
@@ -62,18 +60,18 @@ export const CONTENT: Record<Language, Content> = {
           {
             weight: "5 kg",
             label: "Professionnel",
-            description: "Idéal pour les exploitations agricoles et les grandes surfaces de culture."
+            description: "Adapté aux vergers et aux exploitations arboricoles."
           },
           {
             weight: "1 kg",
             label: "Petit exploitant",
-            description: "Adapté aux petites parcelles et à l'agriculture familiale."
+            description: "Idéal pour les petites parcelles et l’arboriculture familiale."
           }
         ]
       }
     },
     cta: {
-      title: "Protégez vos cultures dès aujourd’hui.",
+      title: "Protégez vos vergers dès aujourd’hui.",
       buttons: {
         contact: "Nous contacter",
         demo: "Demander une démonstration",
@@ -86,67 +84,65 @@ export const CONTENT: Record<Language, Content> = {
         success: "Merci ! Vous êtes inscrit.",
         error: "Une erreur est survenue.",
         loading: "Inscription...",
-        disclaimer: "Recevez nos dernières actualités et soyez les premiers informés des nouvelles versions."
+        disclaimer: "Recevez nos dernières actualités sur la protection des cultures."
       }
     },
     footer: {
-      tagline: "Produit phytosanitaire préventif",
-      contact: "contact@mildexia.com",
+      tagline: "Protection contre le feu bactérien",
+      contact: "contact@blightx.com",
       country: "Tunisie 🇹🇳"
     }
   },
   en: {
     hero: {
-      title: "Preventive Shield Against Downy Mildew",
-      subtitle: "Preventive phytosanitary solution formulated with plant-derived extracts to strengthen crop resilience.",
+      title: "Preventive Shield Against Fire Blight",
+      subtitle: "Preventive phytosanitary product designed to protect orchards against fire blight and support the natural resistance of fruit trees.",
       buttons: {
         contact: "Contact Us",
-        learnMore: "Discover Mildexia"
+        learnMore: "Discover BlightX"
       }
     },
     about: {
-      title: "What is Mildexia?",
-      description: "Mildexia is a preventive phytosanitary solution.",
-      description2: "It helps limit the development of fungal diseases such as downy mildew and powdery mildew while supporting plant defense mechanisms."
+      title: "What is BlightX?",
+      description: "BlightX is a preventive phytosanitary product intended for orchards.",
+      description2: "It contributes to limiting the development of fire blight while strengthening the cellular structure and defense mechanisms of fruit trees."
     },
     usage: {
       title: "Instructions for Use",
       cards: {
-        dosage: { title: "DOSAGE", text: "5 kg per 200 L of water" },
-        prep: { title: "PREPARATION", text: "Dissolve the powder in water with proper agitation." },
-        app: { title: "APPLICATION", text: "Spray evenly on both upper and lower leaf surfaces." }
+        dosage: { title: "DOSAGE", text: "5 kg for 120 to 150 L of water" },
+        prep: { title: "PREPARATION", text: "Prepare a premix (slurry method) by gradually incorporating the powder into water until a homogeneous paste is obtained, then pour into the tank." },
+        app: { title: "APPLICATION", text: "Full canopy spray until uniform coverage. Indicative dose: 2 to 2.5 L of mixture per adult tree." }
       }
     },
     crops: {
       title: "Target Crops",
-      items: ["Tomato", "Potato", "Vine"]
+      items: ["Pear Trees", "Apple Trees", "Quince Trees"]
     },
     formulation: {
       title: "Functional Composition",
-      disclaimer: "Formulated from raw materials of plant and mineral origin.",
+      disclaimer: "Formula based on components of plant and mineral origin.",
       ingredients: [
-        "Dried Horsetail",
-        "Garlic Extract",
-        "Neem",
-        "Rosemary Oil",
-        "Bicarbonate",
-        "Kaolin Clay",
-        "Seaweed Extract"
+        "White Clay",
+        "Potassium Silicate",
+        "Pine Essence",
+        "Tea Tree Oil"
       ]
     },
     sustainability: {
       title: "Sustainable Agricultural Commitment",
       points: [
-        "Designed to support responsible farming.",
+        "Designed to accompany responsible orchard management.",
         "No persistent chemical residues.",
-        "Compatible with sustainable agricultural practices."
+        "Compatible with sustainable and ecosystem-friendly cultural practices."
       ]
     },
     product: {
       title: "Technical Specifications",
       specs: [
-        "Soluble Powder",
+        "Dilutable Powder",
         "Preventive Application",
+        "Protective Screen Formation After Drying",
         "Long-term Storage",
         "Made in Tunisia"
       ],
@@ -156,18 +152,18 @@ export const CONTENT: Record<Language, Content> = {
           {
             weight: "5 kg",
             label: "Professional",
-            description: "Ideal for farms and large-scale cultivation."
+            description: "Suitable for orchards and arboricultural operations."
           },
           {
             weight: "1 kg",
             label: "Smallholder",
-            description: "Suited for small plots and family farming."
+            description: "Ideal for small plots and family arboriculture."
           }
         ]
       }
     },
     cta: {
-      title: "Protect your crops today.",
+      title: "Protect your orchards today.",
       buttons: {
         contact: "Contact Us",
         demo: "Request a Demo",
@@ -180,67 +176,65 @@ export const CONTENT: Record<Language, Content> = {
         success: "Thanks! You're subscribed.",
         error: "Something went wrong.",
         loading: "Subscribing...",
-        disclaimer: "Receive our latest news and be the first to know about new releases."
+        disclaimer: "Receive our latest news on crop protection."
       }
     },
     footer: {
-      tagline: "Preventive Phytosanitary Product",
-      contact: "contact@mildexia.com",
+      tagline: "Fire Blight Protection",
+      contact: "contact@blightx.com",
       country: "Tunisia 🇹🇳"
     }
   },
   ar: {
     hero: {
-      title: "درع وقائي ضد العفن الفطري",
-      subtitle: "منتج وقائي للصحة النباتية. تركيبة تعتمد على مستخلصات نباتية لتعزيز دفاعات المحاصيل.",
+      title: "درع وقائي ضد اللفحة النارية",
+      subtitle: "منتج وقائي للصحة النباتية مصمم لحماية البساتين من اللفحة النارية ودعم المقاومة الطبيعية للأشجار المثمرة.",
       buttons: {
         contact: "اتصل بنا",
-        learnMore: "اكتشف Mildexia"
+        learnMore: "اكتشف BlightX"
       }
     },
     about: {
-      title: "ما هو Mildexia؟",
-      description: "Mildexia هو منتج وقائي للصحة النباتية.",
-      description2: "يساهم في الحد من ظهور الأمراض الفطرية مثل العفن الفطري والبياض الدقيقي، مع دعم آليات الدفاع الطبيعية للنباتات."
+      title: "ما هو BlightX؟",
+      description: "BlightX هو منتج وقائي للصحة النباتية مخصص للبساتين.",
+      description2: "يساهم في الحد من تطور اللفحة النارية مع تعزيز البنية الخلوية وآليات الدفاع للأشجار المثمرة."
     },
     usage: {
       title: "طريقة الاستخدام",
       cards: {
-        dosage: { title: "الجرعة", text: "5 كجم لكل 200 لتر من الماء" },
-        prep: { title: "التحضير", text: "قم بإذابة المسحوق في الماء مع التحريك الكافي." },
-        app: { title: "التطبيق", text: "رشه بانتظام على الأوراق (من الأعلى والأسفل)." }
+        dosage: { title: "الجرعة", text: "5 كجم لكل 120 إلى 150 لترًا من الماء" },
+        prep: { title: "التحضير", text: "قم بإعداد خليط أولي (طريقة المعلق) بإضافة المسحوق تدريجيًا للماء حتى الحصول على عجينة متجانسة، ثم اسكبها في الخزان." },
+        app: { title: "التطبيق", text: "رش كامل للمظلة الشجرية حتى التغطية الكاملة. الجرعة التقريبية: 2 إلى 2.5 لتر من الخليط لكل شجرة بالغة." }
       }
     },
     crops: {
       title: "المحاصيل المستهدفة",
-      items: ["طماطم", "بطاطس", "كرمة"]
+      items: ["أشجار الإجاص", "أشجار التفاح", "أشجار السفرجل"]
     },
     formulation: {
       title: "التركيبة الوظيفية",
-      disclaimer: "تركيبة مطورة من مواد خام من أصل نباتي ومعدني.",
+      disclaimer: "تركيبة تعتمد على مكونات من أصل نباتي ومعدني.",
       ingredients: [
-        "ذيل الحصان المجفف",
-        "مستخلص الثوم",
-        "نيم",
-        "زيت إكليل الجبل",
-        "بيكربونات",
-        "طين الكاولين",
-        "مستخلص الطحالب"
+        "الطين الأبيض",
+        "سيليكات البوتاسيوم",
+        "خلاصة الصنوبر",
+        "زيت شجرة الشاي"
       ]
     },
     sustainability: {
       title: "التزام زراعي مستدام",
       points: [
-        "مصمم لدعم الزراعة المسؤولة.",
+        "مصمم لدعم الإدارة المسؤولة للبساتين.",
         "بدون بقايا كيميائية دائمة.",
-        "متوافق مع الممارسات الزراعية المستدامة."
+        "متوافق مع الممارسات الزراعية المستدامة والصديقة للنظام البيئي."
       ]
     },
     product: {
       title: "المواصفات التقنية",
       specs: [
-        "مسحوق قابل للذوبان",
+        "مسحوق قابل للتخفيف",
         "تطبيق وقائي",
+        "تشكيل شاشة واقية بعد الجفاف",
         "تخزين طويل الأمد",
         "صنع في تونس"
       ],
@@ -250,18 +244,18 @@ export const CONTENT: Record<Language, Content> = {
           {
             weight: "5 كجم",
             label: "محترف",
-            description: "مثالي للمزارع والمساحات الكبيرة."
+            description: "مناسب للبساتين والعمليات الزراعية الكبيرة."
           },
           {
             weight: "1 كجم",
             label: "مزارع صغير",
-            description: "مناسب لقطع الأراضي الصغيرة والزراعة العائلية."
+            description: "مثالي لقطع الأراضي الصغيرة والزراعة العائلية."
           }
         ]
       }
     },
     cta: {
-      title: "احمِ محاصيلك اليوم.",
+      title: "احمِ بساتينك اليوم.",
       buttons: {
         contact: "اتصل بنا",
         demo: "طلب عرض توضيحي",
@@ -274,12 +268,12 @@ export const CONTENT: Record<Language, Content> = {
         success: "شكراً! تم الاشتراك.",
         error: "حدث خطأ ما.",
         loading: "جاري الاشتراك...",
-        disclaimer: "احصل على آخر الأخبار وكن أول من يعرف عن الإصدارات الجديدة."
+        disclaimer: "احصل على آخر الأخبار حول حماية المحاصيل."
       }
     },
     footer: {
-      tagline: "منتج وقائي للصحة النباتية",
-      contact: "contact@mildexia.com",
+      tagline: "حماية ضد اللفحة النارية",
+      contact: "contact@blightx.com",
       country: "تونس 🇹🇳"
     }
   }

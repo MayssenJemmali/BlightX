@@ -58,7 +58,7 @@ const Sustainability: FC<SustainabilityProps> = ({ content }) => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1">
-            <div className="w-16 h-16 bg-mildexia-primary rounded-2xl flex items-center justify-center mb-8 shadow-[0_0_30px_rgba(16,185,129,0.4)]">
+            <div className="w-16 h-16 bg-mildexia-primary rounded-2xl flex items-center justify-center mb-8 shadow-[0_0_30px_rgba(234,88,12,0.4)]">
               <Leaf size={32} className="text-white" />
             </div>
             <h2 className="text-4xl font-display font-bold mb-8 leading-tight">

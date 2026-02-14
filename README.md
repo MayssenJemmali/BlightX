@@ -1,27 +1,27 @@
 <div align="center">
-  <img src="public/assets/Front.png" alt="Mildexia Front Packaging" width="300" />
+  <img src="public/assets/Front.png" alt="BlightX Front Packaging" width="300" />
   
-  # 🌿 Mildexia
-  ### Preventive Phytosanitary Shield Against Downy Mildew
+  # 🌿 BlightX
+  ### Preventive Phytosanitary Shield Against Fire Blight
   
   **Protects Your Crops. Respects the Environment.**
   
-  [Live Application](https://mildexia.vercel.app)
+  [Live Application](https://blightx.vercel.app)
 </div>
 
 ---
 
 ## 📖 About The Project
 
-**Mildexia** is a revolutionary phytosanitary product designed to act as a preventive shield against fungal diseases like **Downy Mildew** and **Powdery Mildew**. 
+**BlightX** is a revolutionary phytosanitary product designed to act as a preventive shield against **Fire Blight**. 
 
-Formulated with a unique blend of **plant extracts** and **mineral-based ingredients**, Mildexia strengthens the natural defense mechanisms of your crops while ensuring zero chemical residue. It is the perfect ally for sustainable and responsible agriculture. 🌍
+Formulated with a unique blend of **plant extracts** and **mineral-based ingredients**, BlightX strengthens the natural defense mechanisms of your crops while ensuring zero chemical residue. It is the perfect ally for sustainable and responsible agriculture. 🌍
 
 ### ✨ Key Features
 
 *   🛡️ **Preventive Action**: Stops diseases before they start.
-*   🌱 **100% Natural Formulation**: Based on Horsetail, Garlic Extract, Neem Oil, and other natural ingredients.
-*   🚜 **Target Crops**: Specifically effective for Tomatoes 🍅, Potatoes 🥔, and Vines 🍇.
+*   🌱 **100% Natural Formulation**: Based on White Clay, Potassium Silicate, Pine Essence, and Tea Tree Oil.
+*   🚜 **Target Crops**: Specifically effective for Apples 🍎, Pears 🍐, and Quince.
 *   ♻️ **Eco-Friendly**: No persistent chemical residues, safe for the soil and the farmer.
 *   🇹🇳 **Made in Tunisia**: Locally developed and produced.
 
@@ -33,12 +33,12 @@ Formulated with a unique blend of **plant extracts** and **mineral-based ingredi
   <table>
     <tr>
       <td align="center">
-        <img src="public/assets/Front.png" alt="Mildexia Front" width="300" />
+        <img src="public/assets/Front.png" alt="BlightX Front" width="300" />
         <br />
         <b>Front Packaging</b>
       </td>
       <td align="center">
-        <img src="public/assets/Back.png" alt="Mildexia Back" width="300" />
+        <img src="public/assets/Back.png" alt="BlightX Back" width="300" />
         <br />
         <b>Back Packaging (Instructions)</b>
       </td>
@@ -50,7 +50,7 @@ Formulated with a unique blend of **plant extracts** and **mineral-based ingredi
 
 ## 📦 Usage Instructions
 
-1.  **Dosage**: Dissolve **5 kg** of Mildexia powder in **200 L** of water.
+1.  **Dosage**: Dissolve **5 kg** of BlightX powder in **200 L** of water.
 2.  **Preparation**: Mix thoroughly until completely dissolved.
 3.  **Application**: Spray evenly on crop leaves, covering both upper and lower surfaces.
 
@@ -80,8 +80,8 @@ Follow these steps to set up the project locally on your machine.
 
 1.  **Clone the repository**
     ```sh
-    git clone https://github.com/your-username/mildexia.git
-    cd mildexia
+    git clone https://github.com/your-username/blightx.git
+    cd blightx
     ```
 
 2.  **Install dependencies**
@@ -109,5 +109,5 @@ Follow these steps to set up the project locally on your machine.
 
 <div align="center">
   <p>Made with ❤️ for a Greener Future.</p>
-  <p>© 2026 Mildexia. All Rights Reserved.</p>
+  <p>© 2026 BlightX. All Rights Reserved.</p>
 </div>

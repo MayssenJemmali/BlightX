@@ -78,7 +78,7 @@ const Usage: FC<UsageProps> = ({ content }) => {
                 {/* Visual Icon Container */}
                 <div className="relative z-10 mb-8">
                   {/* Outer Glow Ring */}
-                  <div className="w-32 h-32 rounded-full border border-white/50 dark:border-white/10 bg-white/30 dark:bg-white/5 backdrop-blur-md shadow-lg flex items-center justify-center group-hover:shadow-[0_0_30px_rgba(16,185,129,0.3)] transition-all duration-500">
+                  <div className="w-32 h-32 rounded-full border border-white/50 dark:border-white/10 bg-white/30 dark:bg-white/5 backdrop-blur-md shadow-lg flex items-center justify-center group-hover:shadow-[0_0_30px_rgba(234,88,12,0.3)] transition-all duration-500">
                     {/* Inner Circle */}
                     <div className="w-24 h-24 rounded-full bg-white dark:bg-mildexia-charcoal border border-slate-100 dark:border-white/10 flex items-center justify-center relative overflow-hidden group-hover:border-mildexia-primary/50 transition-colors duration-500">
                       <motion.div animate={step.animation} className="relative z-10">

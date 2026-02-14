@@ -99,7 +99,7 @@ const Navbar: FC<NavbarProps> = ({ language, setLanguage, theme, toggleTheme }) 
             className="flex items-center gap-2 z-10"
           >
             <span className="text-2xl font-display font-bold text-mildexia-primary tracking-tight">
-              Mil<span className="text-slate-800 dark:text-white">dexia</span>
+              Blight<span className="text-slate-800 dark:text-white">X</span>
             </span>
           </button>
 
@@ -156,8 +156,8 @@ const Navbar: FC<NavbarProps> = ({ language, setLanguage, theme, toggleTheme }) 
                           setIsLangMenuOpen(false);
                         }}
                         className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-50 dark:hover:bg-white/5 transition-colors ${language === lang.code
-                            ? 'text-mildexia-primary font-medium'
-                            : 'text-slate-600 dark:text-gray-300'
+                          ? 'text-mildexia-primary font-medium'
+                          : 'text-slate-600 dark:text-gray-300'
                           }`}
                       >
                         {lang.label}

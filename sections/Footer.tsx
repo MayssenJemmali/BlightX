@@ -10,7 +10,7 @@ const Footer: FC<FooterProps> = ({ content }) => {
     <footer className="py-12 bg-white dark:bg-black border-t border-gray-100 dark:border-gray-800">
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
         <div>
-          <span className="text-2xl font-display font-bold text-mildexia-primary">Mildexia</span>
+          <span className="text-2xl font-display font-bold text-mildexia-primary">BlightX</span>
           <p className="text-sm text-slate-500 dark:text-gray-500 mt-2">
             {content.tagline}
           </p>
@@ -26,7 +26,7 @@ const Footer: FC<FooterProps> = ({ content }) => {
         </div>
       </div>
       <div className="mt-8 text-center text-xs text-slate-300 dark:text-gray-700">
-        © {new Date().getFullYear()} Mildexia. All rights reserved.
+        © {new Date().getFullYear()} BlightX. All rights reserved.
       </div>
     </footer>
   );

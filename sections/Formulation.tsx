@@ -1,7 +1,7 @@
 import { type FC } from 'react';
 import { motion } from 'framer-motion';
 import { Content } from '../types';
-import { Dna, Leaf, Wheat, Citrus, TreeDeciduous, Droplets, Gem, Mountain, Shell } from 'lucide-react';
+import { Dna, Leaf, Droplets, Mountain, Atom, TreeDeciduous } from 'lucide-react';
 
 interface FormulationProps {
   content: Content['formulation'];
@@ -10,13 +10,10 @@ interface FormulationProps {
 const Formulation: FC<FormulationProps> = ({ content }) => {
 
   const icons = [
-    <Wheat size={20} />,          // Prêle sèche (Dried Horsetail)
-    <Citrus size={20} />,         // Extrait ail (Garlic Extract)
-    <TreeDeciduous size={20} />,  // Neem
-    <Droplets size={20} />,       // Huile romarin (Rosemary Oil)
-    <Gem size={20} />,            // Bicarbonate (crystalline mineral)
-    <Mountain size={20} />,       // Argile kaolin (Kaolin Clay)
-    <Shell size={20} />           // Extrait algues (Seaweed Extract)
+    <Mountain size={20} />,       // White Clay / Kaolin
+    <Atom size={20} />,           // Potassium Silicate
+    <TreeDeciduous size={20} />,  // Pine Essence
+    <Droplets size={20} />,       // Tea Tree Oil
   ];
 
   return (
@@ -43,11 +40,11 @@ const Formulation: FC<FormulationProps> = ({ content }) => {
         {/* Circular Layout Container */}
         <div className="relative w-full max-w-xl mx-auto aspect-square hidden lg:block">
           {/* Center Core */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-36 h-36 bg-white dark:bg-mildexia-charcoal rounded-full shadow-[0_0_60px_rgba(16,185,129,0.2)] flex flex-col items-center justify-center z-20 border border-mildexia-primary/20">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-36 h-36 bg-white dark:bg-mildexia-charcoal rounded-full shadow-[0_0_60px_rgba(234,88,12,0.2)] flex flex-col items-center justify-center z-20 border border-mildexia-primary/20">
             <div className="p-3 bg-mildexia-primary/10 rounded-full mb-2">
               <Leaf className="text-mildexia-primary" size={32} />
             </div>
-            <span className="font-display font-bold text-2xl text-mildexia-primary">Mildexia</span>
+            <span className="font-display font-bold text-2xl text-mildexia-primary">BlightX</span>
             <span className="text-xs text-slate-400 mt-1">COMPLEXE</span>
           </div>
 

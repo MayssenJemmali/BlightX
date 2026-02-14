@@ -45,7 +45,7 @@ const Hero: FC<HeroProps> = ({ content }) => {
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-mildexia-sage/30 via-mildexia-cream to-white dark:from-mildexia-deep dark:via-mildexia-charcoal dark:to-[#05100a] z-0" />
+      <div className="absolute inset-0 bg-gradient-to-br from-mildexia-sage/30 via-mildexia-cream to-white dark:from-mildexia-deep dark:via-mildexia-charcoal dark:to-[#0C0A09] z-0" />
 
       {/* Mist Effect */}
       <motion.div
@@ -64,7 +64,7 @@ const Hero: FC<HeroProps> = ({ content }) => {
           className="text-start"
         >
           <h1 className="text-5xl lg:text-7xl font-display font-bold leading-tight mb-6">
-            <span className="text-mildexia-primary">Mildexia</span> <br />
+            <span className="text-mildexia-primary">BlightX</span> <br />
             <span className="text-slate-800 dark:text-gray-100 text-3xl lg:text-5xl font-light block mt-2">
               {content.title}
             </span>
@@ -123,7 +123,7 @@ const Hero: FC<HeroProps> = ({ content }) => {
               >
                 <img
                   src="/assets/Front.png"
-                  alt="Mildexia Packaging Front"
+                  alt="BlightX Packaging Front"
                   className="w-full h-full object-contain select-none pointer-events-none"
                   draggable={false}
                   style={{

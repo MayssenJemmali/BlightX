@@ -84,7 +84,7 @@ const ProductSpecs: FC<ProductSpecsProps> = ({ content }) => {
                 >
                   <img
                     src="/assets/Back.png"
-                    alt="Mildexia Packaging Back"
+                    alt="BlightX Packaging Back"
                     className="w-full h-full object-contain select-none pointer-events-none"
                     draggable={false}
                     style={{

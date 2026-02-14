@@ -11,9 +11,9 @@ const Crops: FC<CropsProps> = ({ content }) => {
   // Mapping based on expected strings.
   // Using high quality unspash image for Vine since local file is not in explorer
   const images = [
-    "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=600&q=80", // Tomato
-    "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=600&q=80", // Potato
-    "https://images.unsplash.com/photo-1631299106224-aae61c217164?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  // Vine (Vigne)
+    "https://images.unsplash.com/photo-1631160299919-6a175aa6d189?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Pear
+    "https://plus.unsplash.com/premium_photo-1661322640130-f6a1e2c36653?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Apple
+    "https://images.unsplash.com/photo-1698942316196-f095ca7181c8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  // سفرجل
   ];
 
   return (
@@ -49,7 +49,7 @@ const Crops: FC<CropsProps> = ({ content }) => {
                   {crop}
                 </h3>
                 <p className="text-white/70 text-sm transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 delay-75">
-                  Mildexia Protection
+                  BlightX Protection
                 </p>
               </div>
             </motion.div>
