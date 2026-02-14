@@ -1,5 +1,5 @@
 import { type FC, useEffect, useState } from 'react';
-import { Moon, Sun, Globe, Menu, X } from 'lucide-react';
+import { Moon, Sun, Globe, Menu, X, ArrowUpRight } from 'lucide-react';
 import { Language } from '../types';
 
 interface NavbarProps {
@@ -34,6 +34,12 @@ const NAV_LINKS = {
     { label: 'المنتج', href: '#product' },
     { label: 'اتصل بنا', href: '#contact' },
   ],
+};
+
+const MORE_PRODUCTS: Record<Language, string> = {
+  fr: 'Autres Produits',
+  en: 'More Products',
+  ar: 'منتجات أخرى',
 };
 
 const Navbar: FC<NavbarProps> = ({ language, setLanguage, theme, toggleTheme }) => {
@@ -125,6 +131,17 @@ const Navbar: FC<NavbarProps> = ({ language, setLanguage, theme, toggleTheme }) 
 
           {/* Right Controls */}
           <div className="flex items-center gap-4 z-10">
+            {/* Mildexia External Link */}
+            <a
+              href="https://mildexia.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden sm:flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-500 to-green-600 text-white text-xs font-bold tracking-wide shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40 hover:-translate-y-0.5 hover:scale-105 transition-all duration-300 group"
+            >
+              <span>{MORE_PRODUCTS[language]}</span>
+              <ArrowUpRight size={14} className="group-hover:translate-x-0.2 group-hover:-translate-y-0.2 transition-transform duration-600" />
+            </a>
+
             {/* Language Toggle */}
             {/* Language Dropdown */}
             <div className="relative">
@@ -167,7 +184,6 @@ const Navbar: FC<NavbarProps> = ({ language, setLanguage, theme, toggleTheme }) 
                 </>
               )}
             </div>
-
             {/* Theme Toggle */}
             <button
               onClick={toggleTheme}
@@ -226,6 +242,17 @@ const Navbar: FC<NavbarProps> = ({ language, setLanguage, theme, toggleTheme }) 
                 </button>
               );
             })}
+
+            {/* Mobile External Link */}
+            <a
+              href="https://mildexia.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 mt-4 px-4 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-green-600 text-white text-base font-bold tracking-wide shadow-lg shadow-emerald-500/20 active:scale-95 transition-all duration-200"
+            >
+              <span>{MORE_PRODUCTS[language]}</span>
+              <ArrowUpRight size={16} />
+            </a>
           </div>
         </div>
       </div>
