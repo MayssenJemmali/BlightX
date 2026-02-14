@@ -6,10 +6,25 @@ export default async function handler(request, response) {
     }
 
     try {
-        const { email } = request.body;
+        let email = request.body?.email;
+
+        // Handle stringified body if not automatically parsed
+        if (!email && typeof request.body === 'string') {
+            try {
+                const parsed = JSON.parse(request.body);
+                email = parsed.email;
+            } catch (e) {
+                console.warn('Failed to parse request body as JSON:', e);
+            }
+        }
 
         if (!email || !email.includes('@')) {
             return response.status(400).json({ error: 'Invalid email address' });
+        }
+
+        if (!process.env.BLOB_READ_WRITE_TOKEN) {
+            console.error('Missing BLOB_READ_WRITE_TOKEN environment variable');
+            return response.status(500).json({ error: 'Server configuration error' });
         }
 
         // Store the subscription as a unique file to avoid race conditions
@@ -18,7 +33,8 @@ export default async function handler(request, response) {
         const data = {
             email,
             signedUpAt: new Date().toISOString(),
-            source: 'web'
+            source: 'web',
+            userAgent: request.headers['user-agent'] || 'unknown'
         };
 
         await put(filename, JSON.stringify(data), {
